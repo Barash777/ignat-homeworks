@@ -23,9 +23,9 @@ function HW1() {
                 time={messageData.time}
             />
 
-            <img
+            {/*<img
                 src={'https://production-it-incubator.s3.eu-central-1.amazonaws.com/personal-page-front-public%3Ascreen/Image/a5ba6c68-6d4f-45ab-9557-52367cf1b438_image.png'}/>
-
+*/}
             <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeMessage/>*/}
