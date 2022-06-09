@@ -1,7 +1,35 @@
 .someClass {
+    margin: 10px;
+}
 
+.btn {
+    border-radius: 5px;
+    color: red;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*font-size: 16px;*/
+    margin-left: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.counter {
+    margin-left: 5px;
+    color: #d209d2;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.errorMessage {
+    color: red
 }
