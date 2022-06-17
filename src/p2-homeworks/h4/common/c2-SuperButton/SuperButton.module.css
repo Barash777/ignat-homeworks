@@ -1,7 +1,28 @@
 .default {
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    background-color: cornflowerblue;
+}
+
+.default:hover:not([disabled]) {
+    background-color: white;
+    color: black;
+}
+
+.default:disabled {
+    background-color: gray;
+    cursor: default;
 
 }
 
 .red {
-    background: red;
+    background-color: red;
 }

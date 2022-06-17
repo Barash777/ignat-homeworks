@@ -34,14 +34,19 @@ function HW4() {
                 />
 
                 <SuperInputText
-                    className={s.blue} // проверьте, рабоет ли смешивание классов
+                    className={s.blue} // проверьте, работает ли смешивание классов
                 />
 
                 {/*----------------------------------------------------*/}
 
+
+                {/*<button children={'asd'}/>*/}
+                {/*<input children={text}/>*/}
+
                 <SuperButton>
-                    default
+                    default123
                 </SuperButton>
+
 
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true

@@ -1,7 +1,9 @@
 .checkbox {
-
+    height: 15px;
+    width: 15px;
 }
 
 .spanClassName {
-
+    color: cornflowerblue;
+    font-weight: bold;
 }
