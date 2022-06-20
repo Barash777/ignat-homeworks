@@ -26,6 +26,7 @@ const Greeting: React.FC<GreetingPropsType> = (
             <div><span className={s.errorMessage}>{error}</span></div>*/}
 
             <SuperInputText
+                onEnter={addUser}
                 placeholder={'Name'}
                 value={name}
                 onChange={setNameCallback}
@@ -33,7 +34,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                 className={inputClass}
                 error={error}
             />
-            <SuperButton onClick={addUser}>add</SuperButton>
+            <SuperButton disabled={name.trim() === ''} onClick={addUser}>add</SuperButton>
             <span className={s.counter}>User counter: {totalUsers}</span>
         </div>
     )

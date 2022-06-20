@@ -20,7 +20,6 @@
 .default:disabled {
     background-color: gray;
     cursor: default;
-
 }
 
 .red {
