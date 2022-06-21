@@ -1,0 +1,35 @@
+/* Style the links inside the sidenav */
+.sidenav {
+    position: fixed; /* Position them relative to the browser window */
+    right: -305px; /* Position them outside of the screen */
+    transition: 0.5s; /* Add transition on hover */
+    top: 40px;
+    padding: 2px;
+    /*margin: 20px;*/
+    width: 320px; /* Set a specific width */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 5px 0 0 5px; /* Rounded corners on the top left and bottom left side */
+    background-color: #04AA6D;
+}
+
+.sidenav:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+.navLink {
+    margin-left: 20px;
+}
+
+.activeLink {
+    color: gold;
+    font-weight: bold;
+    /*background: #f0f0f0;*/
+    text-decoration: none;
+}
+
+.usualLink {
+    color: black;
+    /*background: #c50f0f;*/
+    text-decoration: none;
+}
