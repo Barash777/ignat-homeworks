@@ -1,0 +1,11 @@
+.editableSpan {
+    color: cornflowerblue;
+}
+
+span.editableSpan:before {
+    content: url("../../../../icons/pencil-svgrepo-com.svg");
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
