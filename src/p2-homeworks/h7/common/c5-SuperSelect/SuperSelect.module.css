@@ -1,0 +1,65 @@
+/*
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.select {
+    margin: 10px;
+    color: cornflowerblue;
+    font-weight: bold;
+
+    !*appearance: none;*!
+    !*background-color: transparent;*!
+    !*border: none;*!
+    padding: 0 1em 0 0;
+    !*margin: 0;*!
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+
+    outline: none;
+}
+
+.select::-ms-expand {
+    display: none;
+}*/
+
+
+/* <select> styles */
+.select {
+    /* Reset */
+    margin: 10px;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    /*font: inherit;*/
+    font-size: 18px;
+    font-weight: bold;
+    /* Personalize */
+    width: 5em;
+    height: 2em;
+    padding: 0 1em 0 1em;
+    color: cornflowerblue;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 200, 0.2);
+    cursor: pointer;
+}
+
+.select option {
+    color: inherit;
+    background-color: #320a28;
+}
+
+/* Remove focus outline */
+.select option:focus {
+    outline: none;
+}
+
+/* Remove IE arrow */
+.select option::-ms-expand {
+    display: none;
+}
