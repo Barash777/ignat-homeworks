@@ -1,0 +1,22 @@
+.list {
+    color: cornflowerblue;
+    font-size: 20px;
+    width: 250px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 15px;
+    text-align: center;
+}
+
+.name {
+    width: 130px;
+    text-align: left;
+}
+
+.age {
+    color: black;
+    width: 70px;
+    text-align: right;
+}
