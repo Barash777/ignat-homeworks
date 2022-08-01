@@ -52,9 +52,10 @@
     font-size: 18px;
     font-weight: bold;
     /* Personalize */
-    width: 5em;
+    min-width: 5em;
     height: 2em;
-    padding: 0 1em 0 1em;
+    padding: 0.1em 3em 0.1em 0.5em;
+    /*padding-left: 0.1em;*/
     color: cornflowerblue;
     border-radius: 0.25em;
     box-shadow: 0 0 1em 0 rgba(0, 0, 200, 0.2);
